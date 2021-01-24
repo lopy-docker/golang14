@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     unzip \ 
     libc6-dev-i386 \
+    uuid-dev \
     # unrar \
     && apt-get clean autoclean \
     && apt-get autoremove --yes \
